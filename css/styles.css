@@ -39,11 +39,11 @@ header {
     transition: .5s;
 }
 
-.card-img {
+/*.card-img {
   max-width: 100%;
   transform: scale(1);
   transition: .5s;
-}
+}*/
 
 .scale {
   transform: scale(1.05);
