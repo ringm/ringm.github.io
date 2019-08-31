@@ -1,0 +1,84 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+  max-height: 720px;
+}
+
+.icon {
+  height: 16px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.img-sm {
+  height: 250px;
+}
+
+.p-description {
+  z-index: 1;
+  opacity: 0;
+  transition: .3s;
+  background-color:rgba(0,0,0,0.75);
+}
+
+.visible {
+    opacity: 1;
+    padding: 5%;
+    transition: .5s;
+}
+
+.card-img {
+  max-width: 100%;
+  transform: scale(1);
+  transition: .5s;
+}
+
+.scale {
+  transform: scale(1.05);
+  transition: .5s;
+}
+
+/*----------------------------------
+VIDEO BANNER
+----------------------------------*/
+.section {
+  height: 75vh;
+}
+
+.section h1,
+.section p {
+  z-index: 1;
+}
+
+/*----------------------------------
+MEDIA QUERIES
+----------------------------------*/
+
+@media (min-width: 768px) {
+  .img-1-md {
+    height: 450px;
+  }
+  .img-2-md {
+    height: 310px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-1-lg {
+    height: 600px;
+  }
+  .img-2-lg {
+    height: 410px;
+  }
+  .img-3-lg {
+    height: 205px;
+  }
+}
