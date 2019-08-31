@@ -22,7 +22,7 @@ for (var i = 0; i < textOverImages.length; i++) {
       txtClasses.add("visible");
       imgClasses.add("scale");
     }
-  }
+  };
 }
 
 for (var i = 0; i < textOverImages.length; i++) {
@@ -32,13 +32,8 @@ for (var i = 0; i < textOverImages.length; i++) {
     var imgClasses = children[1].firstElementChild.classList;
     txtClasses.remove("visible");
     imgClasses.remove("scale");
-    } 
+    };
   }
-
-function stopPropagation(event){
-  event.stopPropagation();
-}
-
 
 //--------------------------------------
 //CHECK FORM EMPTY FIELDS 
@@ -57,4 +52,4 @@ sendBtn.addEventListener('click', e => {
       } 
     }
   }
-)
+);

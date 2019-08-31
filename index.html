@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Rubik:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:900&display=swap" rel="stylesheet">
     <title>MR</title>
   </head>
   <body>
@@ -58,7 +59,7 @@
             <div class="p-description bg-black text-white text-center">
               <h2 class="h1">HOOJOBS</h2>
               <p class="card-text">Mobile Design</p>
-              <a href="https://ringm.myportfolio.com/hoojobs-mobile-design" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.myportfolio.com/hoojobs-mobile-design" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/hoojobs-cover-2.jpg" class="card-img" alt="hoojobs">
@@ -71,7 +72,7 @@
             <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h2 class="card-title">SHAREFI</h2>
               <p class="card-text">Logo Design</p>
-              <a href="https://ringm.myportfolio.com/sharefi-logo-design" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.myportfolio.com/sharefi-logo-design" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/sharefi-cover-2.jpg" class="card-img img-fluid" alt="...">
@@ -81,7 +82,7 @@
             <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h2 class="card-title">WHEEL OF SUCCESS</h2>
               <p class="card-text">Browser Game</p>
-              <a href="https://ringm.github.io/techdegree-project-06/" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.github.io/techdegree-project-06/" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/wheel-cover.jpg" class="card-img img-fluid" alt="...">
@@ -94,7 +95,7 @@
             <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h2 class="card-title">WEB DASHBOARD</h2>
               <p class="card-text">Web Development</p>
-              <a href="https://ringm.github.io/techdegree-project-07/" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.github.io/techdegree-project-07/" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/dashboard-cover.jpg" class="card-img img-fluid" alt="...">
@@ -104,7 +105,7 @@
             <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h2 class="card-title">EMPLOYEE DIRECTORY</h2>
               <p class="card-text">Web Development</p>
-              <a href="https://ringm.github.io/techdegree-project-08/" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.github.io/techdegree-project-08/" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/directory-cover.jpg" class="card-img img-fluid" alt="...">
@@ -114,7 +115,7 @@
             <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h2 class="card-title">CONTAINER</h2>
               <p class="card-text">Web Design</p>
-              <a href="https://ringm.myportfolio.com/container-web-design" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.myportfolio.com/container-web-design" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/container-cover.jpg" class="card-img img-fluid" alt="...">
@@ -124,7 +125,7 @@
             <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h2 class="card-title">GGWP</h2>
               <p class="card-text">Editorial</p>
-              <a href="https://ringm.myportfolio.com/ggwp-editorial" target="_blank"><button class="btn btn-danger rounded-0 pl-5 pr-5">View Project</button></a>
+              <a class="btn btn-danger rounded-0 pl-5 pr-5" href="https://ringm.myportfolio.com/ggwp-editorial" target="_blank">View Project</a>
             </div>
             <div class="position-absolute overflow-hidden">
               <img src="img/ggwp-cover.jpg" class="card-img img-fluid" alt="...">
@@ -143,24 +144,24 @@
             <div class="col-12 col-md-6">
                 <p class='warning-msg bg-danger text-white mt-3 mb-1 p-2 hidden'>Please write your name.</p>
                 <label class="text-white d-block" for="inputName">Your Name</label>
-                <input type="text" class="form-control rounded-0 bg-black">
+                <input id="inputName" type="text" class="form-control rounded-0 bg-black">
                 <p class='warning-msg bg-danger text-white mt-3 mb-1 p-2 hidden'>Please write your email.</p>
                 <label class="text-white mt-2 d-block" for="inputEmail">Your Email</label>
-                <input type="email" class="form-control rounded-0 bg-black">
+                <input id="inputEmail" type="email" class="form-control rounded-0 bg-black">
                 <p class='warning-msg bg-danger text-white mt-3 mb-1 p-2 hidden'>Please write your company name.</p>
                 <label class="text-white mt-2 d-block" for="inputCompany">Your Company</label>
-                <input type="text" class="form-control rounded-0 bg-black">
+                <input id="inputCompany" type="text" class="form-control rounded-0 bg-black">
                 <p class='warning-msg bg-danger text-white mt-3 mb-1 p-2 hidden'>Please write how did you find me.</p>
                 <label class="text-white mt-2 d-block" for="inputFindMe">How did you find me?</label>
-                <input type="text" class="form-control rounded-0 bg-black">
+                <input id="inputFindMe" type="text" class="form-control rounded-0 bg-black">
             </div>
             <div class="col-12 col-md-6">
                 <p class='warning-msg bg-danger text-white mt-3 mb-1 p-2 hidden'>Please write the name of your organisation.</p>
                 <label class="text-white d-block" for="inputOrganisation">Your Organisation</label>
-                <input type="text" class="form-control rounded-0 bg-black">
+                <input id="inputOrganisation" type="text" class="form-control rounded-0 bg-black">
                 <p class='warning-msg bg-danger text-white mt-3 mb-1 p-2 hidden'>Please write your message.</p>
                 <label class="text-white mt-2 d-block" for="textArea">Your Message</label>
-                <textarea class="form-control rounded-0 bg-black" id="exampleFormControlTextarea1" rows="7"></textarea>
+                <textarea id="textArea" class="form-control rounded-0 bg-black" rows="7"></textarea>
             </div>
         </div>
         <div class="d-flex justify-content-center mt-4">
@@ -216,11 +217,7 @@
           <!-- Grid row-->
 
         </div>
-      </div>
     </footer>
-
-
-    </div>
     <!-- Optional JavaScript -->
     <script src="js/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
