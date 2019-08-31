@@ -46,10 +46,13 @@ const missingFieldUser = document.querySelectorAll('.warning-msg');
 sendBtn.addEventListener('click', e => {
   e.preventDefault();
   for(let i = 0; i < inputUser.length; i++){
-  if(inputUser[i].value == ''){
+  if(inputUser[i].value == '') {
       missingFieldUser[i].classList.remove('hidden');
       missingFieldUser[i].classList.add('show');
-      } 
+      } else {
+        missingFieldUser[i].classList.remove('show');
+        missingFieldUser[i].classList.add('hidden');
+      }
     }
   }
 );
