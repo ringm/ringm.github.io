@@ -10,6 +10,10 @@ header {
   max-height: 720px;
 }
 
+.borderr {
+  border: 3px solid white;
+}
+
 .icon {
   height: 16px;
 }
@@ -44,6 +48,14 @@ header {
 .scale {
   transform: scale(1.05);
   transition: .5s;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
 }
 
 /*----------------------------------
