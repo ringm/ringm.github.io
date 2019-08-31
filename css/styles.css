@@ -40,7 +40,9 @@ header {
 }
 
 .card-img {
+  transform: scale(1);
   transition: .5s;
+  height: 100%;
 }
 
 .scale {
